@@ -2,7 +2,7 @@
 
 Bore’s App Installer is a modern, user-friendly Windows application inspired by Ninite. It allows you to quickly install multiple apps with ease — plus add, edit, or remove your own custom apps and categories for maximum flexibility.
 
-![App Screenshot or Logo Here]
+![App Screenshot](assets/screenshot.png)
 
 ## Features
 
