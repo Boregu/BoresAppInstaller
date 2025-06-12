@@ -23,7 +23,7 @@
   },
   "Media & Creativity": {
     "Blender": {
-      "url": "https://download.blender.org/release/Blender3.6/blender-3.6.0-windows-x64.msi",
+      "url": "https://www.blender.org/download/release/Blender4.4/blender-4.4.3-windows-x64.msi",
       "icon": "blender.png",
       "category": "Media & Creativity"
     },
@@ -32,8 +32,8 @@
       "icon": "figma.png",
       "category": "Media & Creativity"
     },
-    "OBS Studio": {
-      "url": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-29.1.3-Full-Installer-x64.exe",
+    "OBS": {
+      "url": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-31.0.3-Windows-Installer.exe",
       "icon": "obs.png",
       "category": "Media & Creativity"
     },
@@ -43,19 +43,19 @@
       "category": "Media & Creativity"
     },
     "VLC Media Player": {
-      "url": "https://get.videolan.org/vlc/3.0.18/win64/vlc-3.0.18-win64.exe",
+      "url": "https://get.videolan.org/vlc/3.0.21/win64/vlc-3.0.21-win64.exe",
       "icon": "vlc.png",
       "category": "Media & Creativity"
     }
   },
   "File Tools": {
     "7-Zip": {
-      "url": "https://www.7-zip.org/a/7z2201-x64.exe",
+      "url": "https://www.7-zip.org/a/7z2409-x64.exe",
       "icon": "7zip.png",
       "category": "File Tools"
     },
     "WinRAR": {
-      "url": "https://www.rarlab.com/rar/winrar-x64-611.exe",
+      "url": "https://www.win-rar.com/fileadmin/winrar-versions/winrar/winrar-x64-711.exe",
       "icon": "winrar.png",
       "category": "File Tools"
     },
@@ -67,27 +67,22 @@
   },
   "Developer Tools": {
     "Cursor AI": {
-      "url": "https://marketplace.visualstudio.com/_apis/public/gallery/publishers/cursorai/vsextensions/cursorai/latest/vspackage",
+      "url": "https://downloads.cursor.com/production/53b99ce608cba35127ae3a050c1738a959750865/win32/x64/user-setup/CursorUserSetup-x64-1.0.0.exe",
       "icon": "cursorai.png",
       "category": "Developer Tools"
     },
     "Git": {
-      "url": "https://github.com/git-for-windows/git/releases/download/v2.41.0.windows.1/Git-2.41.0-64-bit.exe",
+      "url": "https://github.com/git-for-windows/git/releases/download/v2.49.0.windows.1/Git-2.49.0-64-bit.exe",
       "icon": "git.png",
       "category": "Developer Tools"
     },
-    "IDA Free": {
-      "url": "https://out7.hex-rays.com/files/idafree70_win.exe",
-      "icon": "ida.png",
-      "category": "Developer Tools"
-    },
     "Notepad++": {
-      "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.5.6/npp.8.5.6.Installer.x64.exe",
+      "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.8.1/npp.8.8.1.Installer.x64.exe",
       "icon": "notepadpp.png",
       "category": "Developer Tools"
     },
     "Python": {
-      "url": "https://www.python.org/ftp/python/3.11.4/python-3.11.4-amd64.exe",
+      "url": "https://www.python.org/ftp/python/3.13.4/python-3.13.4-amd64.exe",
       "icon": "python.png",
       "category": "Developer Tools"
     },
@@ -97,14 +92,14 @@
       "category": "Developer Tools"
     },
     "Visual Studio Code": {
-      "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user",
+      "url": "https://code.visualstudio.com/docs/?dv=win64user",
       "icon": "vscode.png",
       "category": "Developer Tools"
     }
   },
   "Runtime Libraries": {
     ".NET Desktop Runtime": {
-      "url": "https://download.visualstudio.microsoft.com/download/pr/6900d5c3-56de-40b6-8a7a-2c312c1ef3c6/e4ec4c098f299ec1c6c0d8020a6f169c/dotnet-desktop-runtime-7.0.10-win-x64.exe",
+      "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/8.0.410/dotnet-sdk-8.0.410-win-x64.exe",
       "icon": "dotnet.png",
       "category": "Runtime Libraries"
     },
@@ -116,12 +111,12 @@
   },
   "Game Platforms": {
     "Battle.net": {
-      "url": "https://www.battle.net/download/getInstaller?os=win",
+      "url": "https://downloader.battle.net//download/getInstallerForGame?os=win&gameProgram=BATTLENET_APP&version=Live",
       "icon": "battlenet.png",
       "category": "Game Platforms"
     },
     "EA App": {
-      "url": "https://www.ea.com/eaapp/download",
+      "url": "https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAappInstaller.exe",
       "icon": "eaapp.png",
       "category": "Game Platforms"
     },
@@ -131,7 +126,7 @@
       "category": "Game Platforms"
     },
     "Minecraft Launcher": {
-      "url": "https://launcher.mojang.com/download/MinecraftInstaller.msi",
+      "url": "https://aka.ms/minecraftClientGameCoreWindows",
       "icon": "minecraft.png",
       "category": "Game Platforms"
     },
@@ -139,21 +134,16 @@
       "url": "https://cdn.fastly.steamstatic.com/client/installer/SteamSetup.exe",
       "icon": "steam.png",
       "category": "Game Platforms"
-    },
-    "test": {
-      "url": "https://cdn.fastly.steamstatic.com/client/installer/SteamSetup.exe",
-      "icon": "rive.png",
-      "category": "Game Platforms"
     }
   },
   "Other": {
     "Apollo": {
-      "url": "https://example.com/apollo_installer.exe",
+      "url": "https://github.com/ClassicOldSong/Apollo/releases/download/v0.3.7-hotfix.1/Apollo-0.3.7-hotfix.1.exe",
       "icon": "apollo.png",
       "category": "Other"
     },
     "DS4Windows": {
-      "url": "https://github.com/Ryochan7/DS4Windows/releases/latest/download/DS4Windows.zip",
+      "url": "https://ds4windows.dev/ds4winx64.zip",
       "icon": "ds4windows.png",
       "category": "Other"
     },
@@ -163,22 +153,22 @@
       "category": "Other"
     },
     "EarTrumpet": {
-      "url": "https://github.com/File-New-Project/EarTrumpet/releases/download/v2.1.9.0/EarTrumpetSetup.exe",
+      "url": "https://get.microsoft.com/installer/download/9NBLGGH516XP?mode=full&cid=eartrumpet.landing&hl=en-us&gl=se&referrer=storeforweb&source=https%3A%2F%2Feartrumpet.app%2F",
       "icon": "eartrumpet.png",
       "category": "Other"
     },
     "FanControl": {
-      "url": "https://github.com/Rem0o/FanControl.Releases/releases/download/v1.9.4/FanControl_1.9.4_Setup.exe",
+      "url": "https://github.com/Rem0o/FanControl.Releases/releases/download/V226/FanControl_226_net_8_0_Installer.exe",
       "icon": "fancontrol.png",
       "category": "Other"
     },
     "HWiNFO": {
-      "url": "https://www.hwinfo.com/downloads/hwi_702.zip",
+      "url": "https://downloads.sourceforge.net/project/hwinfo/Windows_Installer/hwi64_826.exe?ts=gAAAAABoSFlu7Ij4XdRMUFEpd_OoOm9tn-wHr-plhCfdLjzarMzu01-I7e4LTNr7-cc2yKq7UA9lnFL6ECnXLU7pn871AH5U8w%3D%3D&r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fhwinfo%2Ffiles%2FWindows_Installer%2Fhwi64_826.exe%2Fdownload",
       "icon": "hwinfo.png",
       "category": "Other"
     },
     "MSI Afterburner": {
-      "url": "https://download.msi.com/uti_exe/vga/MSIAfterburnerSetup.zip",
+      "url": "https://download.msi.com/uti_exe/vga/MSIAfterburnerSetup.zip?__token__=exp=1749732400~acl=/*~hmac=e4e507d7ce0b5e9bb2486c7597b10c0dfe91fbe69446a18a8e8351ae3f9d474d",
       "icon": "msi_afterburner.png",
       "category": "Other"
     },
@@ -188,12 +178,12 @@
       "category": "Other"
     },
     "Tailscale": {
-      "url": "https://pkgs.tailscale.com/stable/tailscale-setup.exe",
+      "url": "https://pkgs.tailscale.com/stable/tailscale-setup-latest.exe",
       "icon": "tailscale.png",
       "category": "Other"
     },
     "Vencord": {
-      "url": "https://vencord.com/VencordSetup.exe",
+      "url": "https://github.com/Vencord/Installer/releases/latest/download/VencordInstaller.exe",
       "icon": "vencord.png",
       "category": "Other"
     }
